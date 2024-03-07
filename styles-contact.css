@@ -60,22 +60,23 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #404040; 
-	
-	
+  background-image: url("images/rocks_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
 }
 
 .center {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background-image: url("images/rocks_bg.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	background:rgba(0,150,178,.75);
 	text-align: center;
-	border: 4px dashed white;
+  border: 4px dashed white;
+
+ 	
 }
 
    
